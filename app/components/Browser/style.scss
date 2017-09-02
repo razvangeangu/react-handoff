@@ -1,0 +1,12 @@
+@import "~sass-material-colors";
+@import "../../common/style.scss";
+
+.browser {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .browser-frame {
+    margin-top: 20px;
+  }
+}

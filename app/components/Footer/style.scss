@@ -1,0 +1,30 @@
+@import "~sass-material-colors";
+@import "../../common/style.scss";
+
+.footer-container {
+
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  // bottom: 0;
+  background-color: transparent;
+
+  .content {
+
+    .text {
+      color: $text-color;
+      font-size: 12px;
+      font-family: $secondary-font;
+      font-weight: 100;
+      vertical-align: middle;
+      text-align: center;
+      transition: color 0.3s;
+    }
+
+    .white {
+      color: $background-color-containers;
+    }
+  }
+}

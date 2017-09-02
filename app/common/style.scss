@@ -1,0 +1,19 @@
+@import "~sass-material-colors";
+
+$main-color: material-color('blue', '500');
+$main-color-hover: material-color('blue', '700');
+$text-color: material-color('grey', '700');
+$text-color-hover: material-color('grey', '900');
+$text-color-light: material-color('grey', '400');
+$text-color-light-hover: material-color('grey', '600');
+$background-color-containers: material-color('grey', '100');
+$background-color-containers-hover: material-color('grey', '300');
+
+$h0: 36px;
+$h1: 24px;
+$h2: 20px;
+$text-size: 16px;
+$text-size-small: 12px;
+
+$main-font: 'Avenir Next';
+$secondary-font: 'Skia';
