@@ -4,12 +4,12 @@
 .footer-container {
 
   width: 100%;
-  position: absolute;
+  // position: absolute;
   margin: 0;
   left: 0;
   right: 0;
   // bottom: 0;
-  background-color: transparent;
+  // background-color: transparent;
 
   .content {
 
@@ -21,10 +21,6 @@
       vertical-align: middle;
       text-align: center;
       transition: color 0.3s;
-    }
-
-    .white {
-      color: $background-color-containers;
     }
   }
 }

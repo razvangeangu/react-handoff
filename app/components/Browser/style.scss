@@ -1,12 +1,56 @@
 @import "~sass-material-colors";
 @import "../../common/style.scss";
 
-.browser {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.browser {  
 
-  .browser-frame {
-    margin-top: 20px;
+  padding-top: 20px;  
+  text-align: center;
+
+  .button {
+    background-color: material-color('blue', '200');
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+  }
+
+  .browser-frame-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .browser-frame {
+      display: block;
+      width: 100%;
+      height: calc(100vh - 110px);
+      margin-top: 20px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
+  .fade-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+    height: calc(100vh - 500px);
+
+    .fade-enter { 
+      position: absolute;
+      bottom: 0px;
+      opacity: 0.0;
+    }
+  
+    .fade-enter-active { 
+      position: absolute;
+      bottom: 100px; 
+      opacity: 1.0;
+      transition: .5s ease-in all;
+    }
   }
 }
