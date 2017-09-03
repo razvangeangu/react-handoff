@@ -3,7 +3,7 @@
 
 .browser {  
 
-  padding-top: 20px;  
+  // padding-top: 20px;  
   text-align: center;
 
   .button {
@@ -26,10 +26,10 @@
     .browser-frame {
       display: block;
       width: 100%;
-      height: calc(100vh - 110px);
-      margin-top: 20px;
-      margin-left: 5%;
-      margin-right: 5%;
+      height: 100vh;
+      // margin-top: 20px;
+      // margin-left: 5%;
+      // margin-right: 5%;
     }
   }
 
@@ -52,5 +52,12 @@
       opacity: 1.0;
       transition: .5s ease-in all;
     }
+  }
+
+  .anutica { 
+    width: 100%; 
+    height: 100px; 
+    background-color: transparent; 
+    position: absolute;
   }
 }

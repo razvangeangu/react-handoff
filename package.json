@@ -240,6 +240,7 @@
     "sanitize.css": "4.1.0",
     "sass-loader": "^6.0.6",
     "sass-material-colors": "0.0.5",
+    "shake.js": "^1.2.2",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3",
     "styled-components": "1.1.2",
